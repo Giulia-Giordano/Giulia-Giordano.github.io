@@ -1,0 +1,83 @@
+.welcome-section {
+
+    margin-bottom: 45rem;
+    
+
+        h1 {
+        position: relative;
+        left: 55rem;
+        bottom: 3rem;
+        font-size: 5.5vw;
+        font-family: $font-1; 
+        font-weight: bolder;
+        color:$secondary-color;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.708);
+        }
+
+    img {
+        position: relative;
+        left:35rem;
+       bottom: 10rem;
+        max-width:35vh;
+    }
+
+    .border-gradient {
+        
+        border: .4rem solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, #159ba2, #10666b);
+        border-radius: 1em;
+         position: relative;
+        left: 39rem;
+        top:9rem;
+        height: 45%;
+        width: 20%;
+    }
+
+    .btn {
+                
+                position: relative;
+                left: 73rem;
+                bottom: 2rem;
+                background-color: $hover-color;
+                border: none;
+                z-index: 1;
+                border-radius: 1rem;
+
+    }
+    .btn::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: 1rem;
+        background-image: linear-gradient(315deg, $btn-color 0%, $secondary-color 74%);
+          box-shadow:
+           -7px -7px 20px 0px #fff9,
+           -4px -4px 5px 0px #fff9,
+           7px 7px 20px 0px #0002,
+           4px 4px 5px 0px #0001;
+          transition: all 0.3s ease;
+    }
+        .btn:hover{
+            color:#fff;
+            
+        }
+        .btn:hover::after{
+            top: 0;
+          height: 100%;
+        }
+        .btn:active{
+            top:2px;
+        }
+
+        .contact{
+            
+            right: 20rem;
+            
+        }
+        
+}

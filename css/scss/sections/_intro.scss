@@ -1,0 +1,69 @@
+.intro{
+
+    h2 {
+         position: relative;
+         bottom: -1rem;
+         left: 10rem;
+        font-size: 5vw;
+        font-family: $font-1;
+        color: $hover-color;
+        
+        
+      }
+      p{
+        position: relative;
+        bottom: -12rem;
+        color: $p-color;
+        font-size: 1.1vw;
+        
+        left:25rem;
+        line-height: 2.5rem;
+        padding: 0 10% 30% 0;
+        margin: auto;
+        white-space: pre-line;
+      }
+ 
+     h3{
+       font-family:  monospace;
+       position: relative;
+       bottom:-3rem;
+       left: 42rem;
+       width: max-content;
+       font-size: clamp(2rem, 2rem + 2rem, 2rem);
+     }
+ 
+ 
+     h3::before,
+     h3::after {
+       content: "";
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+     }
+     h3::before {
+       background: #fff;
+       animation: typewriter 6s steps(20) 2s forwards;
+         
+     }
+     
+     h3::after {
+       width: 0.125em;
+       background: black;
+       animation: typewriter 6s steps(20) 2s forwards,
+                 blink 750ms steps(20)  infinite;
+     }
+ 
+ 
+     @keyframes typewriter {
+       to {
+         left: 100%;
+       }
+     }
+     @keyframes blink {
+       to {
+         background: transparent;
+       }
+     }
+  }

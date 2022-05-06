@@ -1,0 +1,505 @@
+@import "./scss/components/colors";
+@import "./scss/components/typografy";
+@import "./scss/sections/navbar";
+@import "./scss/sections/welcome";
+@import "./scss/sections/intro";
+@import "./scss/sections/education";
+@import"./scss/sections/email";
+@import "./scss/sections/footer";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+    overflow-x: hidden;
+   
+}
+
+@media screen and (max-width: 738px) {
+    .nav {
+      background-color: rgba(255, 255, 255, 0);
+      color: $primary-color;
+      height: 100%;
+      line-height: 30px;
+  
+      li {
+        position: relative;
+        left: -8em;
+        font-size: 1em;
+        color: $hover-color;
+      }
+      a {
+        color: $primary-color;
+      }
+  
+      label {
+        display: block;
+        cursor: pointer;
+      }
+      .menu {
+        text-align: center;
+        width: 100%;
+  
+        display: none;
+      }
+      .menu a {
+        display: block;
+        border: 1px solid rgb(188, 178, 178);
+        margin: 0;
+        width: 550rem;
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.803);
+        box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+          7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+        transition: all 0.3s ease;
+      }
+      #toogle:checked + .menu {
+        display: block;
+      }
+    }
+    .welcome-section {
+        .container{
+            .row{
+   
+      
+        h1 {
+            
+          left: 3.5rem;
+          top: 5rem;
+          font-size: 3.5rem;
+        }
+  
+        .border-gradient {
+          left: 7rem;
+          top: 10rem;
+          height: 59%;
+          width: 65%;
+        }
+  
+        img {
+          left: 4rem;
+          bottom: -2rem;
+        }
+  
+        .btn {
+          left: 11rem;
+          top: 5rem;
+        }
+    }
+    }
+    }
+  
+    .intro {
+        .container{
+      h2 {
+        font-size: 8rem;
+        left: 0rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        left: 1rem;
+        top: 5rem;
+        padding: 0 10% 0 0;
+      }
+      h3 {
+        font-size: 2rem;
+        left: -1rem;
+      }
+    }
+}
+    .education {
+      .skills {
+        position: relative;
+        left: -12rem;
+        top: 3rem;
+        padding-left: 2rem;
+        font-size: 1rem;
+      }
+      .languages {
+        font-size: 1rem;
+        left: 0.7rem;
+      }
+    }
+  .container{
+      .row{
+    .title {
+      position: relative;
+      left: 3rem;
+      font-size: 5em;
+    }
+}
+}
+.container{
+    .row{
+    .email {
+      left: 0rem;
+  
+      height: 10%;
+      max-width: 100%;
+  
+      .text {
+        font-size: 13vw;
+      }
+  
+      
+        .btn {
+            margin-left:3rem;
+        }
+      
+    }
+}
+}
+  
+    footer {
+      .container-fluid {
+          .row{
+        h3 {
+          left: 6rem;
+  
+          font-size: 6rem;
+        }
+    }
+      }
+  
+      .social {
+        .container-fluid {
+          margin-top: 1rem;
+          font-size: 4rem;
+          position: relative;
+          margin-left: -6rem;
+        }
+      }
+    }
+  }
+    
+    
+       
+   
+  
+  
+   
+
+@media screen and(min-width:739px) and (max-width:900){
+
+    .nav {
+        background-color: rgba(255, 255, 255, 0);
+        color: $primary-color;
+        height: 100%;
+       line-height: 30px;
+
+    li{
+        position: relative;
+        left:-8em;
+       font-size: 1em;
+        color: $hover-color;
+   
+
+    }
+    a{
+        color: $primary-color;
+    }
+   
+
+    
+label{
+    
+    display: block;
+    cursor: pointer;
+}
+.menu{
+    text-align: center;
+    width: 100%;
+    
+    display: none;
+}
+.menu a{
+    display: block;
+    border: 1px solid rgb(188, 178, 178);
+    margin: 0;
+    width: 550rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.803);
+      box-shadow:
+       -7px -7px 20px 0px #fff9,
+       -4px -4px 5px 0px #fff9,
+       7px 7px 20px 0px #0002,
+       4px 4px 5px 0px #0001;
+      transition: all 0.3s ease;
+    
+}
+#toogle:checked + .menu{
+display: block;
+}
+    }
+    .welcome-section {
+        .container{
+        h1 {
+          font-size: 5rem;
+          left: 5rem;
+        bottom: 3rem;
+      }
+    
+       .border-gradient {
+    
+            position: relative;
+            height: 60%;
+            width: 60%;
+            left: 8rem;
+            top: 15rem;
+             
+            }
+    
+    
+        img {
+        
+        left: 6rem;
+        bottom: 10rem;
+        }  
+     
+        .btn {
+            position: relative;
+           top: 8rem;
+            left: 20rem;
+            
+           
+        
+        }
+        }
+    }
+
+
+
+
+    .intro{
+        .container{
+       
+        h2 {
+        
+        font-size: 9rem;
+        left: 4rem;
+      }
+
+      p{
+        
+        bottom: -4rem;
+        font-size: 4vw;
+        left:1rem;
+      }
+      h3{
+        font-size: 5.5vw;
+        left: -2rem;
+        
+      }
+    }
+  
+}
+
+.education{
+
+    .container{
+    padding-left: -20%;
+    margin-top: 20%;
+    
+
+.skills {
+    position: relative;
+    left: -25rem;
+    top: 3rem; 
+      padding-left: 2rem;
+      font-size: 1rem;
+   
+   
+        }
+        .languages{
+        
+            font-size:1rem;
+            left: 7rem;
+           
+        }
+    }
+}
+.container{
+    .title{
+        position: relative;
+    left: 0rem;
+    font-size: 13vw;
+    }
+}
+
+.container{
+.email{
+    position: relative;
+    top: 13rem;
+    left: 0rem;
+    height: 10%;
+    max-width: 100%;
+   .text{
+            
+    font-size: 10vw;
+    
+}
+   .btn{
+    margin-left:3rem;
+
+   }
+}
+
+}
+
+
+
+    footer{
+        
+        position: relative;
+         top: 20rem;
+         color: $p-color;
+
+
+         .container-fluid
+         {
+            
+            h3{ 
+                left: 35rem;
+               font-size: 7rem;
+             
+            }
+
+        }
+        
+        
+            
+                
+        .social{
+        .container-fluid{
+          
+            margin-top: 1rem;
+            font-size: 6rem;
+            position: relative;
+            margin-left:-6rem;
+           
+            
+                }
+            }
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .welcome-section {
+      .container {
+        h1 {
+          left: 40rem;
+          top: 0rem;
+        }
+  
+        .border-gradient {
+          right: -5rem;
+  
+          width: 29%;
+          height: 60%;
+        }
+  
+        img {
+          left: 37rem;
+          top: -12rem;
+        }
+  
+        .btn {
+          left: 50rem;
+          top: 13rem;
+        }
+      }
+    }
+  
+    .intro {
+      h2 {
+        font-size: 8vw;
+        left: 15rem;
+      }
+      p {
+        position: relative;
+        left: 16rem;
+        font-size: 1.4vw;
+      }
+      .dynamic-text {
+        left: 25rem;
+      }
+    }
+  
+    .education {
+      padding-left: 49%;
+      margin-top: 10%;
+      margin-bottom: 70%;
+    }
+  
+    .languages {
+      font-size: 1em;
+    }
+  .container{
+    .title {
+      left: 76%;
+      font-size: 7vw;
+    }
+}
+  .container{
+    .email {
+
+        
+      left: 13rem;
+    }
+}
+    footer {
+      .container-fluid {
+        h3 {
+          position: relative;
+          left: 60%;
+  
+          font-size: 4rem;
+        }
+      }
+  
+      .social {
+        left: 42%;
+      }
+    }
+  }
+  
+@media screen and (max-width:1366px) {
+    .welcome-section{
+        h1 {
+           
+        left: 45rem;
+           //top: 17%;  
+        }
+                    
+        .border-gradient {
+                right:5%;
+                bottom:39%;
+                width: 30%;
+                height: 60%;
+            }
+        
+        img {
+            
+            
+            bottom:14rem;
+        }  
+    
+            .btn { 
+                left: 65rem;
+                top: 13rem;
+            }
+
+    }
+    .intro{
+       h3{
+        left: 33rem;
+       }
+    }
+    
+}

@@ -1,0 +1,61 @@
+.nav{
+    background-color:$primary-color;
+    height: 100%;
+    position: fixed;
+    font-family: $font-1;
+    letter-spacing: 2px;
+    z-index: 999;
+    width: 40vw;
+   
+    .toogle{
+        color: $primary-color;
+    }
+
+
+  a{
+    color: $box-color;
+    text-decoration:none;
+    
+    }
+
+
+    a:hover{
+        color: $hover-color;
+        text-decoration:line-through;
+        font-size: 1.5rem;
+        
+       
+
+    }
+
+
+    li {
+        list-style-type: none;
+        padding-bottom: 3rem;
+        margin-left:5em;
+        display: flex;
+        
+
+    }
+    img {
+        max-width: 25%;
+        position: relative;
+        top:1em;
+        left:1em;
+        
+
+        
+    }
+
+
+label{
+    margin: 0 20rem 0 0;
+    font-size: 4rem;
+    line-height: 7rem;
+    display: none;
+}
+#toogle{
+    display: none;
+        
+    }
+}

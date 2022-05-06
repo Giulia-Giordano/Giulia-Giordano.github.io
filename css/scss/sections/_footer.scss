@@ -1,0 +1,73 @@
+.container{
+   .title{
+    margin-top:15rem;
+    position: relative;
+    left: 40rem;
+    text-align: center;
+    color: $secondary-color;
+    font-weight: bold;
+    font-size: 5vw;
+    font-family: $font-1;
+    margin-right: 10rem;
+    }
+}
+    footer{ 
+                    position: relative;
+                top: 35rem;
+                color: $p-color;
+                .container-fluid{
+                    h3{ position: relative;
+                        left: 60%;
+                       
+                       font-size: 4rem;
+                     
+                    }
+                }
+            
+              
+            .social{
+               
+                margin-top: 1rem;
+                font-size: 1rem;
+                position: relative;
+                left: 50%;
+            
+            
+             a{
+                padding: 2rem;
+            }
+            .bi-facebook{
+                color: #3b5998;
+            }
+            .bi-linkedin{
+                color: #0077b5;
+            }
+            .bi-twitter{
+                color: #55acee;
+            }
+            .bi-instagram{
+                color: #c32aa3;
+            }
+            .bi-github{
+                color: #171515;
+            }
+            .bi-facebook:hover,
+            .bi-linkedin:hover,
+            .bi-twitter:hover,
+            .bi-instagram:hover,
+            .bi-github:hover 
+            {
+            
+                color: $box-color;
+            }  
+            .container-fluid{
+            font-size: 300%;
+            margin-top: 1rem;  
+            
+           
+         }
+        }
+    }
+
+    
+       
