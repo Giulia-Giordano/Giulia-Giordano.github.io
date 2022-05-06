@@ -499,8 +499,8 @@ body {
   }
   .container .row .title {
     position: relative;
-    left: 3rem;
-    font-size: 5em;
+    left: .5rem;
+    font-size: 4em;
   }
   .container .row .email {
     left: 0rem;
@@ -514,8 +514,8 @@ body {
     margin-left: 3rem;
   }
   footer .container-fluid .row h3 {
-    left: 6rem;
-    font-size: 6rem;
+    left: 3rem;
+    font-size: 5rem;
   }
   footer .social .container-fluid {
     margin-top: 1rem;
